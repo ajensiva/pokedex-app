@@ -1,0 +1,87 @@
+.App {
+  display: flex;
+  font-family: arial;
+  font-size: 25px;
+  justify-content: center;
+  color: #286CA9;
+  flex-direction: column;
+  margin-bottom: 0px;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.TitleSection {
+  background-color: #F7C502;
+  width: 100%;
+  padding: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.TitleSection input {
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid #286CA9;
+}
+
+.TitleSection img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.TitleSection h1 {
+  margin-bottom: 10px;
+}
+
+.TitleSection button {
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  margin-top: 10px;
+  background-color: #286CA9;
+  color: white;
+  border-color: white;
+}
+
+.TitleSection button:hover {
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.DisplaySection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h1 {
+  padding: 10px;
+}
+
+.DisplaySection table {
+  padding: 10px;
+}
+
+.Bold {
+  font-weight: bold;
+}
