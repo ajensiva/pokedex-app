@@ -1,12 +1,20 @@
-# React + Vite
+React PokeAPI App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React web application that leverages the PokeAPI to provide information about Pokémon.
 
-Currently, two official plugins are available:
+Features
+Pokémon Search: Search for your favorite Pokémon and get detailed information about them.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Technologies Used
+React: A JavaScript library for building user interfaces.
+PokeAPI: An API that provides comprehensive Pokémon data.
 
-Sep 19 2023
-Run npm install (for node_modules folder)
-Run npm install axios
+How to Run
+Clone this repository.
+Install dependencies: npm install. npm install axios
+Start the development server: npm start.
+
+Credits
+PokeAPI: Official PokeAPI
+
+Contributions are welcome! Feel free to open an issue or submit a pull request.
